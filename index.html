@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="es-AR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Malüwe Beauty. Belleza, cuidado y detalles que enamoran." />
+    <title>Malüwe Beauty — Muy pronto</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,700&family=Italiana&family=Parisienne&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <main>
+      <header class="site-header container">
+        <a class="wordmark" href="#inicio" aria-label="Malüwe Beauty, inicio"><span>MALÜWE</span><small>BEAUTY</small></a>
+        <p class="coming">Muy pronto</p>
+      </header>
+      <section class="hero container" id="inicio">
+        <div class="hero-copy">
+          <p class="eyebrow">Belleza que se siente propia</p>
+          <h1>Un toque de color,<br /><em>mucho de vos.</em></h1>
+          <p class="intro">Productos para descubrir, jugar y brillar todos los días. Estamos preparando algo lindo para vos.</p>
+          <a class="button" href="#novedades">Quiero conocer las novedades <span aria-hidden="true">♥</span></a>
+        </div>
+        <div class="hero-art" aria-label="Productos de belleza Malüwe">
+          <div class="sun"></div>
+          <figure class="hero-card hero-card-back"><img src="./assets/tip-sombras.jpeg" alt="Guía de maquillaje Malüwe con tonos cálidos, fríos y neutros" /></figure>
+          <figure class="hero-card hero-card-front"><img src="./assets/set-arcoiris.jpeg" alt="Set Arcoíris Malüwe con productos de maquillaje" /></figure>
+          <span class="sparkle sparkle-one" aria-hidden="true">✦</span><span class="sparkle sparkle-two" aria-hidden="true">✦</span>
+        </div>
+      </section>
+      <section class="promise"><div class="container promise-content"><span>♡</span><p>Belleza</p><i></i><span>✦</span><p>Cuidado</p><i></i><span>♡</span><p>Detalles que enamoran</p></div></section>
+      <section class="collections container" aria-labelledby="colecciones-title">
+        <div class="section-heading"><p class="eyebrow">Para cada momento</p><h2 id="colecciones-title">Pequeños rituales<br /><em>para brillar.</em></h2></div>
+        <div class="editorial-grid">
+          <article class="image-tile tall"><img src="./assets/set-skin-care.jpeg" alt="Set Skin Care Malüwe" /><div><p>Un mimo para vos</p><h3>Cuidado diario</h3></div></article>
+          <article class="note-tile"><p class="script">Un mundo</p><h3>hecho de<br />color</h3><span>♡</span></article>
+          <article class="image-tile wide"><img src="./assets/tip-ojeras.jpeg" alt="Tip Malüwe para tapar ojeras" /><div><p>Tips Malüwe</p><h3>Tu mejor versión</h3></div></article>
+        </div>
+      </section>
+      <section class="closing" id="novedades"><div class="container closing-content"><p class="eyebrow">Malüwe Beauty</p><h2>Estamos por abrir<br /><em>nuestro mundo.</em></h2><p>Muy pronto vas a poder conocer todos nuestros productos.</p><span class="heart" aria-hidden="true">♡</span></div></section>
+    </main>
+    <footer class="site-footer container">© <span id="year"></span> Malüwe Beauty</footer>
+    <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+  </body>
+</html>
