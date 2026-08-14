@@ -1,9 +1,9 @@
 # Malüwe Beauty — landing
 
-Landing estática de presentación de Malüwe Beauty. Se publica temporalmente con GitHub Pages mientras se desarrolla la tienda.
+Landing estática de presentación de Malüwe Beauty. Es independiente del panel administrativo y de la futura tienda.
 
 ## Publicación
 
-GitHub Pages debe publicar desde la raíz de la rama `main`.
+La publicación actual se realiza desde GitHub Pages, tomando la raíz de la rama `main`.
 
-El dominio personalizado previsto es `www.maluwe.com.ar`.
+La arquitectura objetivo es Cloudflare Pages conectado a este repositorio, con `www.maluwe.com.ar` como dominio principal. El detalle y el flujo de cambios están documentados en [docs/diseno-de-sistema.md](docs/diseno-de-sistema.md).
